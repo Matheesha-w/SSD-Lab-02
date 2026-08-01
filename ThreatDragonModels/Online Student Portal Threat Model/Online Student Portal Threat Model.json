@@ -37,37 +37,14 @@
             "labels": [
               "Trust Boundary"
             ],
-            "id": "c1a151f1-6d2f-44e5-9e11-49df272f323b",
+            "id": "5b5b58ab-6d6a-4309-a4ed-ee6780ef4fea",
             "source": {
-              "x": 315,
-              "y": -381
+              "x": -130,
+              "y": -370
             },
             "target": {
-              "x": 415,
-              "y": -281
-            }
-          },
-          {
-            "position": {
-              "x": 40,
-              "y": -120
-            },
-            "size": {
-              "width": 128,
-              "height": 60
-            },
-            "visible": true,
-            "shape": "trust-boundary-box",
-            "id": "a00aeeab-a417-41a4-98a3-68cf27b575e7",
-            "zIndex": -1,
-            "data": {
-              "type": "tm.BoundaryBox",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
+              "x": -30,
+              "y": -270
             }
           },
           {
@@ -192,7 +169,7 @@
           },
           {
             "position": {
-              "x": 90,
+              "x": -80,
               "y": -30
             },
             "size": {
@@ -305,52 +282,6 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Login Request",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Login Request"
-            ],
-            "id": "30fe4d07-f891-480d-8658-43973da9976d",
-            "source": {
-              "x": 203,
-              "y": -5
-            },
-            "target": {
-              "cell": "a044c8fc-bba5-4725-b5a2-f73a3f8fb54d",
-              "port": "db72c419-48c0-4991-bda9-5f452b3c590f"
             }
           },
           {
@@ -637,52 +568,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Upload/Modify Marks",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Upload/Modify Marks"
-            ],
-            "id": "66c223da-2d24-43e6-8292-1c6d1166500a",
-            "source": {
-              "x": 273,
-              "y": 321
-            },
-            "target": {
-              "cell": "a044c8fc-bba5-4725-b5a2-f73a3f8fb54d",
-              "port": "94cc9875-268b-4f7a-ac14-3bc15ce80823"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Update Marks",
               "description": "",
               "outOfScope": false,
@@ -714,52 +599,6 @@
                 "y": -20
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Manage User Accounts",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Manage User Accounts"
-            ],
-            "id": "2b116eae-183d-4429-9d71-d2ae92ce9cc9",
-            "source": {
-              "x": 310,
-              "y": -240
-            },
-            "target": {
-              "cell": "a044c8fc-bba5-4725-b5a2-f73a3f8fb54d",
-              "port": "d07c5293-2024-4fc8-bd62-2262f66ccff7"
-            }
           },
           {
             "shape": "flow",
@@ -862,6 +701,114 @@
               {
                 "x": 700,
                 "y": -180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Upload/Modify Marks",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Upload/Modify Marks"
+            ],
+            "id": "66c223da-2d24-43e6-8292-1c6d1166500a",
+            "source": {
+              "cell": "f55cfc63-d14b-448b-98b7-ded2f560224e",
+              "port": "b52d8831-2835-4ebc-89f3-e2e0c98e1726"
+            },
+            "target": {
+              "cell": "a044c8fc-bba5-4725-b5a2-f73a3f8fb54d",
+              "port": "94cc9875-268b-4f7a-ac14-3bc15ce80823"
+            },
+            "vertices": [
+              {
+                "x": 300,
+                "y": 250
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manage User Accounts",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Manage User Accounts"
+            ],
+            "id": "2b116eae-183d-4429-9d71-d2ae92ce9cc9",
+            "source": {
+              "cell": "a965372e-04b1-42a2-b767-6442249a1def",
+              "port": "4bb97c67-8107-4ddf-8df0-e94474a0aa8b"
+            },
+            "target": {
+              "cell": "a044c8fc-bba5-4725-b5a2-f73a3f8fb54d",
+              "port": "d07c5293-2024-4fc8-bd62-2262f66ccff7"
+            },
+            "vertices": [
+              {
+                "x": 310,
+                "y": -200
+              },
+              {
+                "x": 330,
+                "y": -140
               }
             ]
           },
@@ -1111,8 +1058,8 @@
           },
           {
             "position": {
-              "x": 160,
-              "y": 300
+              "x": -60,
+              "y": 160
             },
             "size": {
               "width": 112.5,
@@ -1228,8 +1175,8 @@
           },
           {
             "position": {
-              "x": 260,
-              "y": -300
+              "x": -60,
+              "y": -240
             },
             "size": {
               "width": 112.5,
