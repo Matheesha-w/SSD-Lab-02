@@ -21,8 +21,8 @@
         "cells": [
           {
             "position": {
-              "x": 379.9999999999999,
-              "y": -29.999999999999638
+              "x": 349.9999999999999,
+              "y": -19.999999999999766
             },
             "size": {
               "width": 130,
@@ -276,7 +276,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Login Request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -290,7 +290,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Login Request"
             ],
             "id": "30fe4d07-f891-480d-8658-43973da9976d",
             "source": {
@@ -303,15 +303,70 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authentication Request",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Authentication Request"
+            ],
+            "id": "d13e54c3-7f56-4412-af66-55fcfac2b0e7",
+            "source": {
+              "cell": "a044c8fc-bba5-4725-b5a2-f73a3f8fb54d",
+              "port": "740577f5-4e62-4d00-a45c-3105a209e48e"
+            },
+            "target": {
+              "cell": "bfbd7033-a07c-43c1-a9fb-d6d8a340607f",
+              "port": "db72c419-48c0-4991-bda9-5f452b3c590f"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 60
+              }
+            ]
+          },
+          {
             "position": {
               "x": 710,
-              "y": -20
+              "y": -19.999999999999766
             },
             "size": {
-              "width": 60,
-              "height": 60
+              "width": 160,
+              "height": 160
             },
             "attrs": {
+              "text": {
+                "text": "Authentication Service"
+              },
               "body": {
                 "stroke": "#333333",
                 "strokeWidth": 1.5,
@@ -406,7 +461,7 @@
             "zIndex": 11,
             "data": {
               "type": "tm.Process",
-              "name": "Process",
+              "name": "Authentication Service",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -417,13 +472,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]
