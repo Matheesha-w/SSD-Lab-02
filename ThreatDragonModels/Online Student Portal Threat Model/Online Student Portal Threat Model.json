@@ -20,6 +20,76 @@
         "version": "2.6.2",
         "cells": [
           {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet users",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Internet users"
+            ],
+            "id": "56469a2f-caa2-4a82-b447-758393780a5e",
+            "source": {
+              "x": 10,
+              "y": -340
+            },
+            "target": {
+              "x": -50,
+              "y": 340
+            },
+            "vertices": [
+              {
+                "x": 90,
+                "y": -290
+              },
+              {
+                "x": 120,
+                "y": -120
+              },
+              {
+                "x": 120,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": -1,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "e65073f5-fcdf-4a45-b50c-a99995f81772",
+            "source": {
+              "x": 290,
+              "y": -400
+            },
+            "target": {
+              "x": 390,
+              "y": -300
+            }
+          },
+          {
             "position": {
               "x": 309.9999999999999,
               "y": -30
@@ -1261,48 +1331,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 15,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false,
-              "crossingFlows": [],
-              "containedElements": []
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "38498416-c130-4a04-865d-49647f439bb5",
-            "source": {
-              "x": 53,
-              "y": -300
-            },
-            "target": {
-              "x": 50,
-              "y": 370
-            },
-            "vertices": [
-              {
-                "x": 140,
-                "y": -350
-              },
-              {
-                "x": 140,
-                "y": -260
-              },
-              {
-                "x": 120,
-                "y": -200
-              }
-            ]
           }
         ]
       }
