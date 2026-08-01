@@ -395,9 +395,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "38498416-c130-4a04-865d-49647f439bb5"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Request view result"
@@ -501,9 +499,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "38498416-c130-4a04-865d-49647f439bb5"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Examination Results"
@@ -711,9 +707,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "38498416-c130-4a04-865d-49647f439bb5"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Upload/Modify Marks"
@@ -765,9 +759,7 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": [
-                "38498416-c130-4a04-865d-49647f439bb5"
-              ]
+              "trustBoundaryIds": []
             },
             "labels": [
               "Manage User Accounts"
@@ -1282,25 +1274,16 @@
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
-              "crossingFlows": [
-                "055ed386-0b16-480b-a2ed-b764ac6e440d",
-                "a3c20784-02d3-4514-8c52-1d9b8c323c8e",
-                "66c223da-2d24-43e6-8292-1c6d1166500a",
-                "2b116eae-183d-4429-9d71-d2ae92ce9cc9"
-              ],
-              "containedElements": [
-                "2ffe6841-0439-41ef-8a13-732978065a3e",
-                "f55cfc63-d14b-448b-98b7-ded2f560224e",
-                "a965372e-04b1-42a2-b767-6442249a1def"
-              ]
+              "crossingFlows": [],
+              "containedElements": []
             },
             "labels": [
               "Trust Boundary"
             ],
             "id": "38498416-c130-4a04-865d-49647f439bb5",
             "source": {
-              "x": -230,
-              "y": -200
+              "x": 53,
+              "y": -300
             },
             "target": {
               "x": 50,
